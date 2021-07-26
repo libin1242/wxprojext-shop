@@ -1,0 +1,167 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/7/26 下午10:39:28 
+使用方法：
+在 F:\wx\pages\category\index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 F:\wx\pages\category\index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="cates">
+      <view is="components/SeachInput/SeachInput">
+        <view class="SeachInput--search_input">
+          <navigator class="sk-transparent sk-text-14-2857-469 sk-text">搜索</navigator>
+        </view>
+      </view>
+      <view class="cates_contanter">
+        <scroll-view scroll-y="true" class="lerft_view">
+          <view class="menu_item active sk-transparent sk-text-14-2857-774 sk-text" data-index="0" style="border: none;">
+            大家电
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-752 sk-text" data-index="1">
+            热门推荐
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-301 sk-text" data-index="2">
+            海外购
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-992 sk-text" data-index="3">
+            苏宁房产
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-856 sk-text" data-index="4">
+            手机相机
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-644 sk-text" data-index="5">
+            电脑办公
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-974 sk-text" data-index="6">
+            厨卫电器
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-716 sk-text" data-index="7">
+            食品酒水
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-662 sk-text" data-index="8">
+            居家生活
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-270 sk-text" data-index="9">
+            厨房电器
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-433 sk-text" data-index="10">
+            生活电器
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-266 sk-text" data-index="11">
+            个护健康
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-919 sk-text" data-index="12">
+            烹饪厨具
+          </view>
+          <view class="menu_item sk-transparent sk-text-14-2857-997 sk-text" data-index="13">
+            家装建材
+          </view>
+        </scroll-view>
+        <scroll-view scroll-y="true" class="right_view" scroll-top="0">
+          <view class="goods_group">
+            <view class="goods_title">
+              <text class="delimiter sk-transparent sk-text-14-2857-198 sk-text">/</text>
+              <text class="title sk-transparent sk-text-14-2857-884 sk-text">电视</text>
+              <text class="delimiter sk-transparent sk-text-14-2857-373 sk-text">/</text>
+            </view>
+            <view class="goods_list">
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-767 sk-text" style="background-position-x: 50%;">曲面电视</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-331 sk-text" style="background-position-x: 50%;">海信</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-827 sk-text" style="background-position-x: 50%;">夏普</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-836 sk-text" style="background-position-x: 50%;">创维</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-510 sk-text" style="background-position-x: 50%;">TCL</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-605 sk-text" style="background-position-x: 50%;">PPTV</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-337 sk-text" style="background-position-x: 50%;">小米</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-623 sk-text" style="background-position-x: 50%;">长虹</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-16 sk-text" style="background-position-x: 50%;">康佳</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-748 sk-text" style="background-position-x: 50%;">三星</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-133 sk-text" style="background-position-x: 50%;">飞利浦</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-663 sk-text" style="background-position-x: 50%;">索尼</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-730 sk-text" style="background-position-x: 50%;">先锋</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-500 sk-text" style="background-position-x: 50%;">家庭影院</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-998 sk-text" style="background-position-x: 50%;">音响</view>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+                <view class="goods_name sk-transparent sk-text-14-2857-443 sk-text" style="background-position-x: 50%;">盒子</view>
+              </navigator>
+            </view>
+          </view>
+          <view class="goods_group">
+            <view class="goods_title">
+              <text class="delimiter sk-transparent sk-text-14-2857-82 sk-text">/</text>
+              <text class="title sk-transparent sk-text-14-2857-859 sk-text">空调</text>
+              <text class="delimiter sk-transparent sk-text-14-2857-280 sk-text">/</text>
+            </view>
+            <view class="goods_list">
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+              </navigator>
+              <navigator>
+                <image mode="scaleToFill" class="sk-image"></image>
+              </navigator>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</template>
