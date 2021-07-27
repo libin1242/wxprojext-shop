@@ -1,3 +1,4 @@
+// 接口列表
 export const getSettimg = () => {
     return new Promise((resolve, reject) => {
         wx.getSetting({
